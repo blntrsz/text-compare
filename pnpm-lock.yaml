@@ -2,12 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/diff': ^5.0.2
+  diff: ^5.1.0
   solid-js: ^1.5.1
   typescript: ^4.8.2
   vite: ^3.0.9
   vite-plugin-solid: ^2.3.0
 
 dependencies:
+  diff: 5.1.0
   solid-js: 1.5.1
 
 devDependencies:
@@ -458,6 +460,11 @@ packages:
     dependencies:
       ms: 2.1.2
     dev: true
+
+  /diff/5.1.0:
+    resolution: {integrity: sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==}
+    engines: {node: '>=0.3.1'}
+    dev: false
 
   /electron-to-chromium/1.4.189:
     resolution: {integrity: sha512-dQ6Zn4ll2NofGtxPXaDfY2laIa6NyCQdqXYHdwH90GJQW0LpJJib0ZU/ERtbb0XkBEmUD2eJtagbOie3pdMiPg==}
